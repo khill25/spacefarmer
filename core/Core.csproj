@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{C39AA214-4C0F-41C0-8491-CC7F39FF7D2A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Core</RootNamespace>
+    <AssemblyName>Core</AssemblyName>
+    <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="MyClass.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Model\Entity\Character.cs" />
+    <Compile Include="Model\Entity\Player.cs" />
+    <Compile Include="Model\Items\Item.cs" />
+    <Compile Include="Model\World\Position.cs" />
+    <Compile Include="Model\World\Tile.cs" />
+    <Compile Include="Model\World\TileGroup.cs" />
+    <Compile Include="Model\World\TileMap.cs" />
+    <Compile Include="Model\World\WorldPosition.cs" />
+    <Compile Include="Model\Entity\Inventory.cs" />
+    <Compile Include="Model\World\Calendar.cs" />
+    <Compile Include="Model\Items\Tools\Hoe.cs" />
+    <Compile Include="Model\Items\Tools\WateringCan.cs" />
+    <Compile Include="Model\Items\Crops\CropItem.cs" />
+    <Compile Include="Model\Items\Crops\CropSeed.cs" />
+    <Compile Include="Sim\World.cs" />
+    <Compile Include="Model\Items\WorldObject.cs" />
+    <Compile Include="Model\Entity\Skills\Skill.cs" />
+    <Compile Include="Model\Entity\Skills\Farming.cs" />
+    <Compile Include="Model\Items\Tools\Tool.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="Sim\" />
+    <Folder Include="Model\Entity\" />
+    <Folder Include="Model\Items\" />
+    <Folder Include="Model\Items\World\" />
+    <Folder Include="Model\World\" />
+    <Folder Include="Model\Items\Tools\" />
+    <Folder Include="Model\Items\Crops\" />
+    <Folder Include="Model\Entity\Skills\" />
+  </ItemGroup>
+</Project>

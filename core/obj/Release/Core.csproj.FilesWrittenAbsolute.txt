@@ -1,0 +1,5 @@
+/Users/Kaili/Projects/SpaceFarmer_Cocos/core/obj/Release/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/Kaili/Projects/SpaceFarmer_Cocos/core/bin/Release/Core.dll.mdb
+/Users/Kaili/Projects/SpaceFarmer_Cocos/core/bin/Release/Core.dll
+/Users/Kaili/Projects/SpaceFarmer_Cocos/core/obj/Release/Core.dll
+/Users/Kaili/Projects/SpaceFarmer_Cocos/core/obj/Release/Core.dll.mdb

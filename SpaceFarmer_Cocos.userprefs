@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="farmer/farmer.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="core/Sim/World.cs">
+    <Files>
+      <File FileName="core/Sim/World.cs" Line="61" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.farmer PreferredExecutionTarget="MonoDevelop.Default" />
+  <DisabledProjects>
+    <String>osx/osx.csproj</String>
+  </DisabledProjects>
+</Properties>

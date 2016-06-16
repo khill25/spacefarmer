@@ -1,0 +1,10 @@
+/Users/Kaili/Projects/SpaceFarmer_Cocos/SpaceFarmer/obj/Debug/Xamarin.Mac,Version=v2.0.AssemblyAttribute.cs
+/Users/Kaili/Projects/SpaceFarmer_Cocos/SpaceFarmer/obj/Debug/ibtool-manifests/Main.storyboardc
+/Users/Kaili/Projects/SpaceFarmer_Cocos/SpaceFarmer/obj/Debug/ibtool/Main.storyboardc/Info.plist
+/Users/Kaili/Projects/SpaceFarmer_Cocos/SpaceFarmer/obj/Debug/ibtool/Main.storyboardc/MainMenu.nib
+/Users/Kaili/Projects/SpaceFarmer_Cocos/SpaceFarmer/obj/Debug/ibtool/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib
+/Users/Kaili/Projects/SpaceFarmer_Cocos/SpaceFarmer/obj/Debug/ibtool/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib
+/Users/Kaili/Projects/SpaceFarmer_Cocos/SpaceFarmer/bin/Debug/SpaceFarmer.exe.mdb
+/Users/Kaili/Projects/SpaceFarmer_Cocos/SpaceFarmer/bin/Debug/SpaceFarmer.exe
+/Users/Kaili/Projects/SpaceFarmer_Cocos/SpaceFarmer/obj/Debug/SpaceFarmer.exe
+/Users/Kaili/Projects/SpaceFarmer_Cocos/SpaceFarmer/obj/Debug/SpaceFarmer.exe.mdb

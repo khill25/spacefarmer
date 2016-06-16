@@ -1,0 +1,5 @@
+/Users/Kaili/Projects/SpaceFarmer_Cocos/core/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/Kaili/Projects/SpaceFarmer_Cocos/core/bin/Debug/Core.dll.mdb
+/Users/Kaili/Projects/SpaceFarmer_Cocos/core/bin/Debug/Core.dll
+/Users/Kaili/Projects/SpaceFarmer_Cocos/core/obj/Debug/Core.dll
+/Users/Kaili/Projects/SpaceFarmer_Cocos/core/obj/Debug/Core.dll.mdb
