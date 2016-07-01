@@ -8,10 +8,6 @@
 /profile:Reach
 /compress:False
 
-#-------------------------------- References --------------------------------#
-
-/reference:../../../../Downloads/MonoGame.Extended-develop/Source/MonoGame.Extended.Content.Pipeline/bin/MonoGame.Extended.Content.Pipeline.dll
-
 #---------------------------------- Content ---------------------------------#
 
 #begin highlight.png

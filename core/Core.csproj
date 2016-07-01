@@ -51,6 +51,10 @@
     <Compile Include="Model\Entity\Skills\Skill.cs" />
     <Compile Include="Model\Entity\Skills\Farming.cs" />
     <Compile Include="Model\Items\Tools\Tool.cs" />
+    <Compile Include="Events\Schedule.cs" />
+    <Compile Include="Events\Conversation.cs" />
+    <Compile Include="Sim\RelationshipEngine\RelationshipEngine.cs" />
+    <Compile Include="Sim\RelationshipEngine\RelationshipEngineConfig.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup>
@@ -63,5 +67,30 @@
     <Folder Include="Model\Items\Tools\" />
     <Folder Include="Model\Items\Crops\" />
     <Folder Include="Model\Entity\Skills\" />
+    <Folder Include="Events\" />
+    <Folder Include="Content\" />
+    <Folder Include="Content\Dialog\" />
+    <Folder Include="Content\Characters\" />
+    <Folder Include="Content\Items\" />
+    <Folder Include="Sim\RelationshipEngine\" />
+    <Folder Include="Content\Dialog\Celilia\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\Dialog\dialog_format.readme" />
+    <None Include="Content\Items\item_description.json" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Content\Characters\characters.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Content\Dialog\Celilia\dialog.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>

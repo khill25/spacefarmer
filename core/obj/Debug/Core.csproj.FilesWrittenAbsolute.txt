@@ -1,5 +1,12 @@
-/Users/Kaili/Projects/SpaceFarmer_Cocos/core/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
-/Users/Kaili/Projects/SpaceFarmer_Cocos/core/bin/Debug/Core.dll.mdb
-/Users/Kaili/Projects/SpaceFarmer_Cocos/core/bin/Debug/Core.dll
-/Users/Kaili/Projects/SpaceFarmer_Cocos/core/obj/Debug/Core.dll
-/Users/Kaili/Projects/SpaceFarmer_Cocos/core/obj/Debug/Core.dll.mdb
+/Users/Kaili/Projects/spacefarmer/core/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/Kaili/Projects/spacefarmer/core/obj/Debug/Core.Content.Characters.characters.json
+/Users/Kaili/Projects/spacefarmer/core/obj/Debug/Core.Content.Dialog.dialog.json
+/Users/Kaili/Projects/spacefarmer/core/bin/Debug/Content/Characters/characters.json
+/Users/Kaili/Projects/spacefarmer/core/bin/Debug/Content/Dialog/dialog.json
+/Users/Kaili/Projects/spacefarmer/core/bin/Debug/Core.dll.mdb
+/Users/Kaili/Projects/spacefarmer/core/bin/Debug/Core.dll
+/Users/Kaili/Projects/spacefarmer/core/obj/Debug/Core.dll
+/Users/Kaili/Projects/spacefarmer/core/obj/Debug/Core.dll.mdb
+/Users/Kaili/Projects/spacefarmer/core/bin/Debug/Newtonsoft.Json.dll
+/Users/Kaili/Projects/spacefarmer/core/obj/Debug/Core.Content.Dialog.Celilia.dialog.json
+/Users/Kaili/Projects/spacefarmer/core/bin/Debug/Content/Dialog/Celilia/dialog.json

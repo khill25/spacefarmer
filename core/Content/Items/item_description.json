@@ -1,0 +1,43 @@
+{
+	"wheat_crop" : {
+			"id" : 1,
+			"name" : "Wheat Seeds",
+			"description" : "Staple crop. Grows well in all seasons.",
+			"value" : 10,
+			"time_units" : "day",
+			"time_to_mature" : 3,
+			"stages" : [1,1,1],
+			"regrows" : false,
+			"season_modifier" : [1,1,1,1],
+			"item_type" : "seed"
+	},
+	"wheat" : {
+			"id" : 2,
+			"crop_id" : 1,
+			"name" : "Wheat",
+			"description" : "Can be ground to make flour.",			
+			"value" : 100,
+			"item_type" : "produce"
+			},
+	"corn_crop" : {
+			"id" : 3,
+			"name" : "Corn Seeds",
+			"description" : "Staple crop. Grows well in Summer and Fall but not Winter.",
+			"value" : 20,
+			"time_units" : "day",
+			"time_to_mature" : 8,
+			"stages" : [1,3,3,1],
+			"regrows" : false,
+			"season_modifier" : [1,2,2,.5],
+			"item_type" : "seed"
+	},
+	"corn" : {
+			"id" : 4,
+			"crop_id" : 2,
+			"name" : "Corn",
+			"description" : "Can be ground to make corn flour. Can also be used to make Popcorn, yum!",			
+			"value" : 400,
+			"item_type" : "produce"
+			}
+}
+		

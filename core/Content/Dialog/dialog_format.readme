@@ -1,0 +1,40 @@
+﻿%variable_name% // variable syntax
+%player_name% // player name variable
+
+<character_name> : {
+	"relationship_level_1" : [
+		<dialog text/dialog>,...
+	],
+	"relationship_level_2" : [
+		<dialog text/dialog>,...
+	],...
+	"event_1" : [
+		<dialog text/dialog>,...
+	],...
+	"filler" : [
+		<dialog text/dialog>,...
+	]
+}
+
+<condition>
+"condition script text to evaluate"
+e.g. "%player_relationship_level% >= 5"
+supported operators: !, !=, ==, >, <, >=, <=
+
+<dialog>
+{
+	"text" : <dialog text>,
+	"player_responses" : <dialog text>
+}
+
+<dialog text>
+{
+	"texts" : [<dialog>,...]
+}
+
+// simple format
+
+<character_name> : [
+	"dialog text here",
+	"another dialog text here",...
+]

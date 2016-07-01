@@ -7,6 +7,7 @@ namespace Core {
 	public class Tile : IEquatable<Object>{
 
 		public Position position;
+		public bool isPassable;
 
 		public Tile(Position p) {
 			this.position = p;

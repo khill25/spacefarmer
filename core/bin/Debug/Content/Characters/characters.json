@@ -1,0 +1,29 @@
+﻿{
+    "Celilia" : {
+        "id" : "",
+        "first_name" : "Celilia",
+        "last_name" : "Bohr",
+        "gender" : "female",
+        "age" : 25,
+        "birthday" : "spring-12",
+        "occupation" : "Chemist",
+        "hair_color" : "634733",
+        "eye_color" : "18A3C9",
+        "skin_tone" : "FFD8B7",
+        "favorite_food" : ""
+    },
+
+    "Samantha" : {
+        "id" : "",
+        "first_name" : "Samantha",
+        "last_name" : "Frye",
+        "gender" : "female",
+        "age" : 28,
+        "birthday" : "fall-17",
+        "occupation" : "Mechanic",
+        "hair_color" : "634733",
+        "eye_color" : "18A3C9",
+        "skin_tone" : "FFD8B7",
+        "favorite_food" : "strawberry"
+    }
+}

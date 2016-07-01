@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 
 namespace Core {
 	public class Character {
@@ -32,10 +33,17 @@ namespace Core {
 			get { return false; }
 		}
 
+		public String Occupation;
+		public String Birthday;
+		public String HairColor;
+		public String EyeColor;
+		public String SkinTone;
+		public String FavoriteFood;
+
 		public double Health;
 		public double Stamina;
 
-		public List<Skill> Skills;
+		public List<Skill> Skills = new List<Skill>();
 
 		public Item HeldItem;
 
@@ -45,6 +53,9 @@ namespace Core {
 		}
 
 		public WorldPosition CurrentWorldPosition;
+
+		public Schedule CharacterSchedule;
+		public Dictionary<Character, double> Relationships = new Dictionary<Character, double>();
 
 		public virtual bool Pickup (WorldObject o) {
 
@@ -64,6 +75,36 @@ namespace Core {
 		public virtual bool Interact (Position p) {
 			
 			return false;
+		}
+
+		public static Character CreateCharacter(Dictionary<string, object> json) {
+			
+			Character c = new Character();
+
+			c.FirstName = json["first_name"] as string;
+			c.LastName = json["last_name"] as string;
+
+			string genderString = json["gender"] as string;
+			if (genderString.Equals("female")) {
+				c.gender = Gender.Female;
+			} else if (genderString.Equals("male")) {
+				c.gender = Gender.Male;
+			} else if (genderString.Equals("transgender")) {
+				c.gender = Gender.Transgender;
+			}
+			 
+			c.Age = Convert.ToInt32(json["age"]);
+			c.Birthday = json["birthday"] as string;
+			c.Occupation = json["occupation"] as string;
+			c.HairColor = json["hair_color"] as string;
+			c.EyeColor = json["eye_color"] as string;
+			c.SkinTone = json["skin_tone"] as string;
+			c.FavoriteFood = json["favorite_food"] as string;
+
+			c.CurrentWorldPosition = new WorldPosition(-1, -1); // Init them into nothing
+
+			// Add any other properties here
+			return c;
 		}
 	}
 }

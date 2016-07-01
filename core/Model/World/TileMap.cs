@@ -8,9 +8,15 @@ namespace Core {
 
 		List<CropSeed> plantedCrops = new List<CropSeed> ();
 		Dictionary<Position, List<WorldObject>> worldObjects = new Dictionary<Position, List<WorldObject>> ();
+		List<Tile> dirtyTiles = new List<Tile>();
 
 		public TileMap(int x, int y, int w, int h) : base(x,y,w,h) {
 			
+		}
+
+		public void Update(Calendar calendar) {
+			UpdateCropSeeds(calendar);
+			// Update dirty tiles
 		}
 
 		public void UpdateCropSeeds(Calendar calendar) {
@@ -55,6 +61,17 @@ namespace Core {
 				worldObjects.Add (p, new List<WorldObject> () { item });
 			}
 		}
+
+		public List<WorldObject> TileItems(Position p) {
+			return null;
+		}
+
+		public bool TilePassable(Position p) {
+			// this is essentially lame hit detection
+			Tile t = TileAt(p.X, p.Y);
+			return t != null ? t.isPassable : true; // if there is no tile make it passable
+		}
+
 	}
 }
 

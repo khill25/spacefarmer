@@ -4,10 +4,9 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>/Users/Kaili/Projects/SpaceFarmer_Cocos/farmer/Content/highlight.png</File>
-    <File>/Users/Kaili/Projects/SpaceFarmer_Cocos/farmer/Content/monogame-extended-logo.png</File>
-    <File>/Users/Kaili/Projects/SpaceFarmer_Cocos/farmer/Content/stars.jpg</File>
-    <File>/Users/Kaili/Projects/SpaceFarmer_Cocos/farmer/Content/isometric_grass_and_water.png</File>
-    <File>/Users/Kaili/Projects/SpaceFarmer_Cocos/farmer/Content/isometric_test_level.tmx</File>
+    <File>/Users/Kaili/Projects/spacefarmer/farmer/Content/highlight.png</File>
+    <File>/Users/Kaili/Projects/spacefarmer/farmer/Content/monogame-extended-logo.png</File>
+    <File>/Users/Kaili/Projects/spacefarmer/farmer/Content/stars.jpg</File>
+    <File>/Users/Kaili/Projects/spacefarmer/farmer/Content/isometric_grass_and_water.png</File>
   </SourceFiles>
 </SourceFileCollection>

@@ -6,6 +6,8 @@ namespace HeadlessEngineTester {
 
 			Core.World world = new Core.World();
 
+			world.Interact(world.player, world.player.CurrentWorldPosition);
+
 			DateTime lastUpdate = DateTime.UtcNow;
 			while (true) {
 				TimeSpan diff = DateTime.UtcNow - lastUpdate;
