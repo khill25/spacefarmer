@@ -1,0 +1,5 @@
+.vs
+core/bin/Debug
+core/obj/Debug
+HeadlessEngineTester/bin
+HeadlessEngineTester/obj

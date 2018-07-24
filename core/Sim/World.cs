@@ -71,7 +71,7 @@ namespace Core {
 			return false;
 		}
 
-		// Uses acing direction
+		// Uses facing direction
 		// Uses the item in hand if avaliable otherwise just try's to interact with whatever the character is next to
 		public bool Interact (Character c, WorldPosition currentPosition) {
 
